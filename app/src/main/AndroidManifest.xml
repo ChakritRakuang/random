@@ -19,6 +19,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:label="RandNum Settings"
+            android:name=".Settings"
+            android:screenOrientation="portrait">
+        </activity>
     </application>
 
 </manifest>
