@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen 
+    xmlns:android="http://schemas.android.com/apk/res/android">
+	<PreferenceCategory
+	    android:title="Initial Values"
+        android:key="initital_values">
+	    <EditTextPreference
+            android:key="min_number"
+            android:title="Minimum Value"
+            android:summary="Define the Minimum value at start"
+            android:dialogTitle="Minimum Number"
+            android:defaultValue="1"
+            android:inputType="numberSigned" 
+            android:maxLength="10"/>
+	    <EditTextPreference
+            android:key="max_number"
+            android:title="Maximum Value"
+            android:summary="Define the Maximum value at start"
+            android:dialogTitle="Maximum Number"
+            android:defaultValue="10" 
+            android:inputType="numberSigned"
+            android:maxLength="10"/>
+	    <EditTextPreference
+            android:key="repeat"
+            android:title="Repeat Value"
+            android:summary="Define the Repeat value at start"
+            android:dialogTitle="Repeat Value"
+            android:defaultValue="1" 
+            android:inputType="numberSigned"
+            android:maxLength="3"/>    
+	</PreferenceCategory>
+</PreferenceScreen>
